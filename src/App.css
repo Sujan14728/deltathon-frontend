@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap");
+
+html {
+  margin: 0px;
+  text-decoration: none;
+}
+.toggle-btn {
+  cursor: pointer;
+}
+.light {
+  background-color: white;
+  color: black;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+.blob {
+  position: absolute;
+  margin-left: 50%;
+  height: 500px;
+}
+
+.card h3 {
+  margin: 20px 0px;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+.card-cover {
+  min-height: 90vh;
+  gap: 1rem;
+  padding: 7px;
+  display: grid;
+}
+.card {
+  border: 2px solid black;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 30px;
+  font-family: "Roboto";
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+}
+.card-desc {
+  font-size: 20px;
+  font-family: "Montserrat";
+  text-align: left;
+  height: 140px;
+  overflow-y: hidden;
+  color: black;
+}
+
+img {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.read-more {
+  background-color: #2dbab1;
+  text-align: left;
+  /* padding: 10px; */
+  height: 40px;
+  border-radius: 7px;
+  border: 0px solid white;
+  width: 50%;
+  font-size: 18px;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  text-align: center;
+}
+.read-more:hover {
+  scale: 1.01;
+  transition: all ease 0.25s;
+}
+.climate-title {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  text-decoration: underline;
+}
+.mantra-pic {
+  height: 50px;
+  object-fit: contain;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.about-title {
+  margin-top: 20px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Inter";
+}
+.about-desc {
+  font-size: 30px;
+  font-family: "Roboto";
+}
+@media (min-width: 1000px) {
+  .card-cover {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  .inside-container {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  img {
+    height: 200px;
+    width: 500px;
+  }
+}
+.footer {
+  text-align: center;
+  background-color: #2dbab1;
+  font-size: 20px;
+  width: 100%;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (min-width: 650px) and (max-width: 1000px) {
+  .card-cover {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .inside-container {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  img {
+    height: 200px;
+    width: 500px;
+  }
+}
+@media (max-width: 700px) {
+  .footer {
+    font-size: 20px;
+  }
+}

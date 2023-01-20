@@ -1,0 +1,66 @@
+.teams-main-container {
+  /* height: 300px; */
+  width: 100vw;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+}
+.teams-top-wrapper {
+  /* height: 300px; */
+  width: 100vw;
+  border: 1px solid black;
+  background-color: #2dbab1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.teams-top-content {
+  width: 70%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin-top: 50px;
+}
+.teams-top-content img {
+  height: 200px;
+  width: 300px;
+  object-fit: contain;
+}
+
+.top-image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  border: 1px solid black;
+}
+
+.top-info-container {
+  border: 1px solid black;
+  display: flex;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.image p {
+  font-size: 24px;
+}
+
+.info {
+  flex: 1;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.bottom-image-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
